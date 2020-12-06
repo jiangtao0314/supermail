@@ -1,0 +1,44 @@
+@import "./normalize.css";
+@font-size :14px;
+@color-text:#666;
+@color-background:#fff;
+@line-height:1.5;
+@color-tint:#ff8198;
+@color-high-text :#ff5777;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  box-sizing: border-box;
+  min-height: 320px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+}
+a{
+  text-decoration: none;
+  color: @color-text;
+}
+li{
+  list-style: none;
+}
+img{
+  vertical-align: bottom;
+}
+input{
+  outline:none;
+  border: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
